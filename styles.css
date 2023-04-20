@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: yellow;
+}
+
+/*---------------------------------header--------*/
+.title{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    width: 96vw;
+    height: 3.8em;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0 0 1em 0 lightgray;
+    position: fixed;
+}
+
+.title h1{
+    font-size: 3em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: yellow;
+}
+
+/*---------------------------------side nav--------*/
+.recipes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: red;
+    min-width: 200px;
+    height: 80vh;
+    margin-top: 4.2em;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0 0 1em 0 lightgray;
+    overflow: hidden;
+    position: fixed;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.recipes ul li{
+    width: 100%;
+}
+
+.return-home{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: yellow;
+    font-size: 1.5em;
+    width: 100%;
+    padding: .5em 0 .5em 1em;  
+}
+
+a:hover{
+    background-color: yellow;
+    color: red;
+}
+
+/*-------------------------------------content-------------*/
+
+.content{
+    position: absolute;
+    margin-top: 4.2em;
+    margin-left: 220px;
+    width: 60%;
+    max-width: 600px;
+    z-index: -1;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content h2{
+    font-weight: 800;
+    font-size: 2.5em;
+    margin: .5em;
+}
+
+.content img{
+    width: 350px;
+    margin: 1em ;
+    margin-top: 0;
+}
+
+.content h3{
+    margin: 1em;
+}
+
+.content ol{
+    margin: 1em;
+}
+
+.content ol li{
+    margin: .5em 0;
+}
